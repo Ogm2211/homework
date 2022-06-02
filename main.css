@@ -1,0 +1,53 @@
+
+.allParts{
+  height: 95vh;
+  display:grid;
+  grid-template-columns: repeat(4 ,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap:3rem 3rem;
+  padding: 1rem;
+
+}
+body{
+  color:white;
+  font-size:2rem;
+  background-color:#2D2D3D;
+}
+.sideBar{
+  grid-column:1;
+  grid-row: 1/3;
+  background-color: #323C48;
+  
+}
+.sideBar-items{
+  height:40%;
+  margin-top:20rem;
+  padding-left:15%;
+}
+
+.mainPart{
+  background-color: #323C48;
+  grid-column: 2/5;
+ 
+}
+
+.part1{
+  background-color: #323C48;
+  opacity:1;
+  font-size:2rem;
+  text-align:center;
+}
+.part2{
+  background-color: #323C48;
+  text-align:center;
+}
+.part3{
+  background-color: #323C48;
+  text-align:center;
+}
+.mainPartInside{
+  background-color: #2D2D3D;
+  height:60%;
+  margin: 8rem 5rem;
+  background-image: url('https://media.istockphoto.com/vectors/modern-robot-running-chart-bars-up-over-city-landscape-artificial-vector-id814772268');
+}
